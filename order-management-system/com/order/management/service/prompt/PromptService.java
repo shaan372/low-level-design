@@ -7,5 +7,6 @@ import java.util.Map;
 public interface PromptService {
 
     void show(Map<String, Action> prompt);
+    String takeInput();
     void execute(Map<String, Action> prompt, String input);
 }
