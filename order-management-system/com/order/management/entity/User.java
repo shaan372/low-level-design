@@ -1,9 +1,13 @@
 package com.order.management.entity;
 
-public class User {
+import com.order.management.enums.UserType;
+
+public abstract class User {
 
     private String name;
     private String id;
+
+    public abstract UserType getType();
 
     public String getName() {
         return name;

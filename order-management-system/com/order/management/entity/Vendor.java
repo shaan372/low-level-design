@@ -1,4 +1,4 @@
-package com.order.management.service.user;
+package com.order.management.entity;
 
 import com.order.management.enums.UserType;
 

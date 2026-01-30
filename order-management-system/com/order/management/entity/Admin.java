@@ -1,8 +1,8 @@
-package com.order.management.service.user;
+package com.order.management.entity;
 
 import com.order.management.enums.UserType;
 
-public class Admin extends User{
+public class Admin extends User {
 
     @Override
     public UserType getType() {
